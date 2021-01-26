@@ -68,10 +68,10 @@ print(datetime.datetime.now(), "Termina web scraping de Google Trends")
 ''' PARTE 2. Extraer los trending topics de Twitter''' 
 
 print(datetime.datetime.now(), "Inicia busqueda de Trending topics de twitter")
-consumer_key = "6i6JAMqVnXym9kF33fK6U4MIE"
-consumer_secret = "hJTsiq4bUbrbEupzonxIGgv8DyYexL5kQT06uvM2ICiFHRmMVx"
-access_token = "1324422374377328643-klos5jxHQNblSJwtVwv1MBwgfB5lHM"
-access_secret = "2M7lLj3UwxR8gMpsXsRdFh3MsqdrC9b6ve2sZyuiy7NrE"
+consumer_key = "xxxxxxxxxxxx"
+consumer_secret = "xxxxxxxxxxxx"
+access_token = "xxxxxxxxxxxx"
+access_secret = "xxxxxxxxxxxx"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)

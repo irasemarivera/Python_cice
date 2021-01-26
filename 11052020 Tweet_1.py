@@ -26,10 +26,10 @@ class MyListener (StreamListener):
         return True
     
 #Credenciales del Twitter API
-consumer_key = "6i6JAMqVnXym9kF33fK6U4MIE"
-consumer_secret = "hJTsiq4bUbrbEupzonxIGgv8DyYexL5kQT06uvM2ICiFHRmMVx"
-access_token = "1324422374377328643-klos5jxHQNblSJwtVwv1MBwgfB5lHM"
-access_secret = "2M7lLj3UwxR8gMpsXsRdFh3MsqdrC9b6ve2sZyuiy7NrE"
+consumer_key = "xxxxxxxxxxxxxx"
+consumer_secret = "xxxxxxxxxxxxxxxx"
+access_token = "xxxxxxxxxxxxxxxx"
+access_secret = "xxxxxxxxxxxxxxxx"
 
 auth=OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)

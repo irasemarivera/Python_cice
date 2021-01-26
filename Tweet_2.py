@@ -15,10 +15,10 @@ import tweepy
 
 # Correr el programa con la instrucción: runfile('Tweet_2.py', args="Pedro")
 #Get your Twitter API credentials and enter them here
-consumer_key = "6i6JAMqVnXym9kF33fK6U4MIE"
-consumer_secret = "hJTsiq4bUbrbEupzonxIGgv8DyYexL5kQT06uvM2ICiFHRmMVx"
-access_token = "1324422374377328643-klos5jxHQNblSJwtVwv1MBwgfB5lHM"
-access_secret = "2M7lLj3UwxR8gMpsXsRdFh3MsqdrC9b6ve2sZyuiy7NrE"
+consumer_key = "xxxxxxxxxxxx"
+consumer_secret = "xxxxxxxxxxxx"
+access_token = "xxxxxxxxxxxx"
+access_secret = "xxxxxxxxxxxx"
 
 #method to get a user's last tweets
 def get_tweets(username):
